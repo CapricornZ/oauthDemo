@@ -1,0 +1,15 @@
+debug: true
+
+server:
+  port: 8090
+  
+#security:
+#  oauth2:
+#   client:
+#      client-id: clientIdPassword
+#      client-secret: secret
+#      access-token-uri: http://localhost:8080/oauth/token
+#      user-authorization-uri: http://localhost:8080/oauth/authorize
+#    resource:
+#      preferTokenInfo: true
+#      user-info-uri: http://localhost:8080/oauth/check_token
