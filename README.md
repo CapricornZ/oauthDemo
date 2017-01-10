@@ -1,5 +1,7 @@
 Spring Boot OAuth2 演示（只演示了client_credentials）
 
+附件oauth2.client_credentials.json可导入POSTMAN测试用例
+
 1. AuthServer:运行在8080<br/>
   1.1 执行如下，获取AccessTokAen
     curl http://localhost:8080/oauth/token?grant_type=client_credentials -u clientIdPassword:secret -X POST -v
